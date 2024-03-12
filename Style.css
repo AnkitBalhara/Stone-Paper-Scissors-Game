@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+text-align: center;
+background-color:#d9cbf6;
+color: #28262C;
+}
+.selector{
+    margin: 5%;
+}
+.headings{
+    margin: 10px;
+}
+.items{
+    height: 150px;
+    width: 150px;
+    border-radius:50% ;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid #28262C;
+}
+.items:hover{
+    box-shadow: 0px 0px 4px #28262C;
+}
+.score{
+    font-size: large;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+    background-color: #F9F5FF;
+}
+.SystemOutput{
+    font-weight: 500;
+    font-size: larger;
+}
+#playerScore,#compScore,#matchDraw{
+    font-weight: bold;
+}
+#ResetGame{
+    font-size: larger;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #28262C;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+#owner{
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone, Paper & Scissors Game</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 class="headings">Play Stone, Paper & Scissors Game</h1>
+            <div class="selector">
+                <img class="items rock" src="images/rock.png" alt="">
+                <img class="items paper" src="images/download.jpg" alt="">
+                <img class="items scissors" src="images/scissors.png" alt="">
+            </div>
+            <button class="score">
+                <h2 >Score</h2>
+                <span class="score finalScore">
+                    <span class="score">You :-<span id="playerScore">0</span></span>
+                    <span class="score">Comp :-<span id="compScore">0</span></span>
+                </span>
+            </button>
+            <br>
+            <div class="SystemOutput">System Generated:- <span id="systemGenerated"></span></div>
+            <button id="ResetGame">
+                Reset Game
+            </button>
+            <div id="matchDraw"></div>
+        </div>
+        <div id="owner">Created by:-Balhara</div>
+    </main>
+
+    <Script src="App.js"></Script>
+</body>
+
+</html>
